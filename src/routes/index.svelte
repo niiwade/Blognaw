@@ -1,353 +1,174 @@
-<!-- component -->
-<div class="overflow-x-hidden bg-black">
-	<div class="px-6 py-8">
-		<div class="container flex justify-between mx-auto">
-			<div class="w-full lg:w-8/12">
-				<div class="flex items-center justify-between">
-					<h1 class="text-xl font-bold text-white md:text-2xl">Post</h1>
+<div class="flex justify-center items-center">
+	<div
+		class="2xl:mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto"
+	>
+		<div role="main" class="flex flex-col items-center justify-center">
+			<h1 class="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">
+				This Week Blogs
+			</h1>
+			<p
+				class="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12"
+			>
+				If you're looking for random paragraphs, you've come to the right place. When a random word
+				or a random sentence isn't quite enough
+			</p>
+		</div>
+		<div class="lg:flex items-stretch md:mt-12 mt-8">
+			<div class="lg:w-1/2">
+				<div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6">
+					<div class="sm:w-1/2 relative">
+						<div>
+							<p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+								12 April 2021
+							</p>
+							<div class="absolute bottom-0 left-0 p-6">
+								<h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+								<p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+								<a
+									href="/page1"
+									class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
+								>
+									<p class="pr-2 text-sm font-medium leading-none">Read More</p>
+									<img
+										src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
+										alt="arrow"
+									/>
+								</a>
+							</div>
+						</div>
+						<img src="https://i.ibb.co/DYxtCJq/img-1.png" class="w-full" alt="chair" />
+					</div>
+					<div class="sm:w-1/2 sm:mt-0 mt-4 relative">
+						<div>
+							<p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+								12 April 2021
+							</p>
+							<div class="absolute bottom-0 left-0 p-6">
+								<h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+								<p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+								<a
+									href="/page2"
+									class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
+								>
+									<p class="pr-2 text-sm font-medium leading-none">Read More</p>
+									<img
+										src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
+										alt="arrow"
+									/>
+								</a>
+							</div>
+						</div>
+						<img src="https://i.ibb.co/3C5HvxC/img-2.png" class="w-full" alt="wall design" />
+					</div>
+				</div>
+				<div class="relative">
 					<div>
-						<select
-							class="w-full border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-						>
-							<option>Latest</option>
-							<option>Last Week</option>
-						</select>
-					</div>
-				</div>
-				<div class="mt-6">
-					<div class="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<div class="flex items-center justify-between">
-							<span class="font-light text-gray-600">Jun 1, 2020</span><a
-								href="#"
-								class="px-2 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
-								>Laravel</a
+						<p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+							12 April 2021
+						</p>
+						<div class="absolute bottom-0 left-0 md:p-10 p-6">
+							<h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+							<p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+							<a
+								href="/page3"
+								class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
 							>
-						</div>
-						<div class="mt-2">
-							<a href="#" class="text-2xl font-bold text-gray-700 hover:underline"
-								>Build Your New Idea with Laravel Freamwork.</a
-							>
-							<p class="mt-2 text-gray-600">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta
-								totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi,
-								accusamus delectus nihil quis facere in modi ratione libero!
-							</p>
-						</div>
-						<div class="flex items-center justify-between mt-4">
-							<a href="#" class="text-blue-500 hover:underline">Read more</a>
-							<div>
-								<a href="#" class="flex items-center"
-									><img
-										src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
-										alt="avatar"
-										class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"
-									/>
-									<h1 class="font-bold text-gray-700 hover:underline">Alex John</h1>
-								</a>
-							</div>
+								<p class="pr-2 text-sm font-medium leading-none">Read More</p>
+								<img
+									src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
+									alt="arrow"
+								/>
+							</a>
 						</div>
 					</div>
-				</div>
-				<div class="mt-6">
-					<div class="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<div class="flex items-center justify-between">
-							<span class="font-light text-gray-600">mar 4, 2019</span><a
-								href="#"
-								class="px-2 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
-								>Design</a
-							>
-						</div>
-						<div class="mt-2">
-							<a href="#" class="text-2xl font-bold text-gray-700 hover:underline"
-								>Accessibility tools for designers and developers</a
-							>
-							<p class="mt-2 text-gray-600">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta
-								totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi,
-								accusamus delectus nihil quis facere in modi ratione libero!
-							</p>
-						</div>
-						<div class="flex items-center justify-between mt-4">
-							<a href="#" class="text-blue-500 hover:underline">Read more</a>
-							<div>
-								<a href="#" class="flex items-center"
-									><img
-										src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=333&amp;q=80"
-										alt="avatar"
-										class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"
-									/>
-									<h1 class="font-bold text-gray-700 hover:underline">Jane Doe</h1>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mt-6">
-					<div class="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<div class="flex items-center justify-between">
-							<span class="font-light text-gray-600">Feb 14, 2019</span><a
-								href="#"
-								class="px-2 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
-								>PHP</a
-							>
-						</div>
-						<div class="mt-2">
-							<a href="#" class="text-2xl font-bold text-gray-700 hover:underline"
-								>PHP: Array to Map</a
-							>
-							<p class="mt-2 text-gray-600">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta
-								totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi,
-								accusamus delectus nihil quis facere in modi ratione libero!
-							</p>
-						</div>
-						<div class="flex items-center justify-between mt-4">
-							<a href="#" class="text-blue-500 hover:underline">Read more</a>
-							<div>
-								<a href="#" class="flex items-center"
-									><img
-										src="https://images.unsplash.com/photo-1531251445707-1f000e1e87d0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=281&amp;q=80"
-										alt="avatar"
-										class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"
-									/>
-									<h1 class="font-bold text-gray-700 hover:underline">Lisa Way</h1>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mt-6">
-					<div class="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<div class="flex items-center justify-between">
-							<span class="font-light text-gray-600">Dec 23, 2018</span><a
-								href="#"
-								class="px-2 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
-								>Django</a
-							>
-						</div>
-						<div class="mt-2">
-							<a href="#" class="text-2xl font-bold text-gray-700 hover:underline"
-								>Django Dashboard - Learn by Coding</a
-							>
-							<p class="mt-2 text-gray-600">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta
-								totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi,
-								accusamus delectus nihil quis facere in modi ratione libero!
-							</p>
-						</div>
-						<div class="flex items-center justify-between mt-4">
-							<a href="#" class="text-blue-500 hover:underline">Read more</a>
-							<div>
-								<a href="#" class="flex items-center"
-									><img
-										src="https://images.unsplash.com/photo-1500757810556-5d600d9b737d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=735&amp;q=80"
-										alt="avatar"
-										class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"
-									/>
-									<h1 class="font-bold text-gray-700 hover:underline">Steve Matt</h1>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mt-6">
-					<div class="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<div class="flex items-center justify-between">
-							<span class="font-light text-gray-600">Mar 10, 2018</span><a
-								href="#"
-								class="px-2 py-1 font-bold text-gray-100 bg-gray-600 rounded hover:bg-gray-500"
-								>Testing</a
-							>
-						</div>
-						<div class="mt-2">
-							<a href="#" class="text-2xl font-bold text-gray-700 hover:underline">TDD Frist</a>
-							<p class="mt-2 text-gray-600">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta
-								totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi,
-								accusamus delectus nihil quis facere in modi ratione libero!
-							</p>
-						</div>
-						<div class="flex items-center justify-between mt-4">
-							<a href="#" class="text-blue-500 hover:underline">Read more</a>
-							<div>
-								<a href="#" class="flex items-center"
-									><img
-										src="https://images.unsplash.com/photo-1502980426475-b83966705988?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=373&amp;q=80"
-										alt="avatar"
-										class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block"
-									/>
-									<h1 class="font-bold text-gray-700 hover:underline">Khatab Wedaa</h1>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mt-8">
-					<div class="flex">
-						<a
-							href="#"
-							class="px-3 py-2 mx-1 font-medium text-gray-500 bg-white rounded-md cursor-not-allowed"
-						>
-							previous
-						</a>
-
-						<a
-							href="#"
-							class="px-3 py-2 mx-1 font-medium text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white"
-						>
-							1
-						</a>
-
-						<a
-							href="#"
-							class="px-3 py-2 mx-1 font-medium text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white"
-						>
-							2
-						</a>
-
-						<a
-							href="#"
-							class="px-3 py-2 mx-1 font-medium text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white"
-						>
-							3
-						</a>
-
-						<a
-							href="#"
-							class="px-3 py-2 mx-1 font-medium text-gray-700 bg-white rounded-md hover:bg-blue-500 hover:text-white"
-						>
-							Next
-						</a>
-					</div>
+					<img
+						src="https://i.ibb.co/Ms4qyXp/img-3.png"
+						alt="sitting place"
+						class="w-full mt-8 md:mt-6 hidden sm:block"
+					/>
+					<img
+						class="w-full mt-4 sm:hidden"
+						src="https://i.ibb.co/6XYbN7f/Rectangle-29.png"
+						alt="sitting place"
+					/>
 				</div>
 			</div>
-			<div class="hidden w-4/12 -mx-8 lg:block">
-				<div class="px-8">
-					<h1 class="mb-4 text-xl font-bold text-white">Authors</h1>
-					<div class="flex flex-col max-w-sm px-6 py-4 mx-auto bg-white rounded-lg shadow-md">
-						<ul class="-mx-4">
-							<li class="flex items-center">
-								<img
-									src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
-									alt="avatar"
-									class="object-cover w-10 h-10 mx-4 rounded-full"
-								/>
-								<p>
-									<a href="#" class="mx-1 font-bold text-gray-700 hover:underline">Alex John</a
-									><span class="text-sm font-light text-gray-700">Created 23 Posts</span>
-								</p>
-							</li>
-							<li class="flex items-center mt-6">
-								<img
-									src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=333&amp;q=80"
-									alt="avatar"
-									class="object-cover w-10 h-10 mx-4 rounded-full"
-								/>
-								<p>
-									<a href="#" class="mx-1 font-bold text-gray-700 hover:underline">Jane Doe</a><span
-										class="text-sm font-light text-gray-700">Created 52 Posts</span
-									>
-								</p>
-							</li>
-							<li class="flex items-center mt-6">
-								<img
-									src="https://images.unsplash.com/photo-1531251445707-1f000e1e87d0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=281&amp;q=80"
-									alt="avatar"
-									class="object-cover w-10 h-10 mx-4 rounded-full"
-								/>
-								<p>
-									<a href="#" class="mx-1 font-bold text-gray-700 hover:underline">Lisa Way</a><span
-										class="text-sm font-light text-gray-700">Created 73 Posts</span
-									>
-								</p>
-							</li>
-							<li class="flex items-center mt-6">
-								<img
-									src="https://images.unsplash.com/photo-1500757810556-5d600d9b737d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=735&amp;q=80"
-									alt="avatar"
-									class="object-cover w-10 h-10 mx-4 rounded-full"
-								/>
-								<p>
-									<a href="#" class="mx-1 font-bold text-gray-700 hover:underline">Steve Matt</a
-									><span class="text-sm font-light text-gray-700">Created 245 Posts</span>
-								</p>
-							</li>
-							<li class="flex items-center mt-6">
-								<img
-									src="https://images.unsplash.com/photo-1502980426475-b83966705988?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=373&amp;q=80"
-									alt="avatar"
-									class="object-cover w-10 h-10 mx-4 rounded-full"
-								/>
-								<p>
-									<a href="#" class="mx-1 font-bold text-gray-700 hover:underline">Khatab Wedaa</a
-									><span class="text-sm font-light text-gray-700">Created 332 Posts</span>
-								</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="px-8 mt-10">
-					<h1 class="mb-4 text-xl font-bold text-white">Categories</h1>
-					<div class="flex flex-col max-w-sm px-4 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<ul>
-							<li>
-								<a href="#" class="mx-1 font-bold text-gray-700 hover:text-gray-600 hover:underline"
-									>- AWS</a
-								>
-							</li>
-							<li class="mt-2">
-								<a href="#" class="mx-1 font-bold text-gray-700 hover:text-gray-600 hover:underline"
-									>- Laravel</a
-								>
-							</li>
-							<li class="mt-2">
-								<a href="#" class="mx-1 font-bold text-gray-700 hover:text-gray-600 hover:underline"
-									>- Vue</a
-								>
-							</li>
-							<li class="mt-2">
-								<a href="#" class="mx-1 font-bold text-gray-700 hover:text-gray-600 hover:underline"
-									>- Design</a
-								>
-							</li>
-							<li class="flex items-center mt-2">
-								<a href="#" class="mx-1 font-bold text-gray-700 hover:text-gray-600 hover:underline"
-									>- Django</a
-								>
-							</li>
-							<li class="flex items-center mt-2">
-								<a href="#" class="mx-1 font-bold text-gray-700 hover:text-gray-600 hover:underline"
-									>- PHP</a
-								>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="px-8 mt-10">
-					<h1 class="mb-4 text-xl font-bold text-white">Recent Post</h1>
-					<div class="flex flex-col max-w-sm px-8 py-6 mx-auto bg-white rounded-lg shadow-md">
-						<div class="flex items-center justify-center">
+			<div class="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
+				<div class="relative">
+					<div>
+						<p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+							12 April 2021
+						</p>
+						<div class="absolute bottom-0 left-0 md:p-10 p-6">
+							<h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+							<p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
 							<a
-								href="#"
-								class="px-2 py-1 text-sm text-green-100 bg-gray-600 rounded hover:bg-gray-500"
-								>Laravel</a
+								href="page4"
+								class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
 							>
-						</div>
-						<div class="mt-4">
-							<a href="#" class="text-lg font-medium text-gray-700 hover:underline"
-								>Build Your New Idea with Laravel Freamwork.</a
-							>
-						</div>
-						<div class="flex items-center justify-between mt-4">
-							<div class="flex items-center">
+								<p class="pr-2 text-sm font-medium leading-none">Read More</p>
 								<img
-									src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
-									alt="avatar"
-									class="object-cover w-8 h-8 rounded-full"
-								/><a href="#" class="mx-3 text-sm text-gray-700 hover:underline">Alex John</a>
-							</div>
-							<span class="text-sm font-light text-gray-600">Jun 1, 2020</span>
+									src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
+									alt="arrow"
+								/>
+							</a>
 						</div>
+					</div>
+					<img
+						src="https://i.ibb.co/6Wfjf2w/img-4.png"
+						alt="sitting place"
+						class="w-full sm:block hidden"
+					/>
+					<img
+						class="w-full sm:hidden"
+						src="https://i.ibb.co/dpXStJk/Rectangle-29.png"
+						alt="sitting place"
+					/>
+				</div>
+				<div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
+					<div class="relative w-full">
+						<div>
+							<p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+								12 April 2021
+							</p>
+							<div class="absolute bottom-0 left-0 p-6">
+								<h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+								<p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+								<a
+									href="/page5"
+									class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
+								>
+									<p class="pr-2 text-sm font-medium leading-none">Read More</p>
+									<img
+										src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
+										alt="arrow"
+									/>
+								</a>
+							</div>
+						</div>
+						<img src="https://i.ibb.co/3yvZBpm/img-5.png" class="w-full" alt="chair" />
+					</div>
+					<div class="relative w-full sm:mt-0 mt-4">
+						<div>
+							<p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
+								12 April 2021
+							</p>
+							<div class="absolute bottom-0 left-0 p-6">
+								<h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+								<p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+								<a
+									href="/page6"
+									class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
+								>
+									<p class="pr-2 text-sm font-medium leading-none">Read More</p>
+									<img
+										src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
+										alt="arrow"
+									/>
+								</a>
+							</div>
+						</div>
+						<img src="https://i.ibb.co/gDdnJb5/img-6.png" class="w-full" alt="wall design" />
 					</div>
 				</div>
 			</div>
