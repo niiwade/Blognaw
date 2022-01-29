@@ -4,7 +4,7 @@
 	>
 		<div role="main" class="flex flex-col items-center justify-center">
 			<h1 class="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">
-				This Week Blogs
+				Top Information Blog
 			</h1>
 			<p
 				class="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12"

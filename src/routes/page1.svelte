@@ -129,3 +129,6 @@
 	<!-- footer -->
 	<footer class="border-t mt-12 pt-12 pb-32 px-4 lg:px-0" />
 </div>
+
+<!-- component -->
+<!-- comment form -->
