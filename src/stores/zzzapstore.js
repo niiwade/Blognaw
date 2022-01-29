@@ -1,5 +1,5 @@
 const fetchpoints = async () => {
     const url = ''
     const res = await fetch(url)
-    const
+    const data = await res.json()
 }
