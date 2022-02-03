@@ -1,3 +1,12 @@
+<script context="module">
+	export const load = async ({ fetch }) => {
+		const res = await fetch('https://schema.getpostman.com/json/collection/v2.1.0/collection.json');
+		return {
+			props: {}
+		};
+	};
+</script>
+
 <div class="flex justify-center items-center">
 	<div
 		class="2xl:mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto"
